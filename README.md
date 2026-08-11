@@ -15,18 +15,22 @@ I am a Mathematics student (L2) dedicated to mastering **Applied Mathematics and
 ## 📂 Project Showcase
  
 ### 1. 📐 Linear Algebra: Mapping & Transformations
- 
-Visualizing how linear mappings $f: \mathbb{R}^2 \to \mathbb{R}^2$ transform the standard basis.
- 
 - **Code:** [matrix_viz.py](./Linear-Algebra/matrix_viz.py)
-![Matrix Transformation](./Linear-Algebra/transformation_plot.png)
+
+Visualizing how linear mappings $f: \mathbb{R}^2 \to \mathbb{R}^2$ transform the standard basis.
+
+<p align="center">
+  <img src="./Linear-Algebra/transformation_plot.png" alt="Matrix Transformation" width="600">
+</p>
  
 ### 2. 📈 Calculus: Convergence of Taylor Series
- 
-Analyzing the local approximation of functions through Taylor-Young expansions.
- 
 - **Code:** [taylor_sin_viz.py](./Calculus/taylor_sin_viz.py)
-![Taylor Approximation](./Calculus/taylor_plot.png)
+
+Analyzing the local approximation of functions through Taylor-Young expansions.
+
+<p align="center">
+  <img src="./Calculus/taylor_plot.png" alt="Taylor Approximation" width="600">
+</p>
  
 ### 3. 🛡️ Linear Algebra: Vector Analysis Tool
  
