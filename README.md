@@ -46,12 +46,12 @@ A multivariable calculus tool that automates the search for critical points and 
 
 ## 📂 Repository Structure
 
-\`\`\`text
+```text
 .
 ├── Linear-Algebra/      # Matrix mappings & Vector analysis
 ├── Calculus/            # Taylor Series & Multivariable Optimization
 └── README.md            # Project documentation
-\`\`\`
+```
 
 ## 🛠️ Technical Stack
 
@@ -62,18 +62,21 @@ A multivariable calculus tool that automates the search for critical points and 
 
 ## 🗺️ Future Roadmap
 
-- [ ] Eigenvalues & Eigenvectors: Visualizing characteristic subspaces.
-- [x] Numerical Optimization: Hessian-based critical point classification.
-- [ ] Differential Equations: Modeling dynamic systems using ODE solvers.
+- [ ] **Eigenvalues & Eigenvectors:** Visualizing characteristic subspaces.
+- [x] **Numerical Optimization:** Hessian-based critical point classification.
+- [ ] **Differential Equations:** Modeling dynamic systems using ODE solvers.
+
+---
 
 ## 🚀 Getting Started
 
-\`\`\`bash
-# Install dependencies
+### Install dependencies
+```bash
 pip install numpy matplotlib sympy
+```
 
-# Clone and run
+### Clone and run
+```bash
 git clone https://github.com/taha108/Computational-Math-Insights.git
 python Calculus/hessian_analysis.py
-\`\`\`
-
+```
