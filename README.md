@@ -4,7 +4,7 @@
 [![Math](https://img.shields.io/badge/Focus-Linear%20Algebra%20%26%20Calculus-orange.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repository documents my academic journey in Mathematics, focusing on the bridge between theoretical foundations and computational implementation. All projects are inspired by the **Exo7 Curriculum**.
+This repository documents my academic journey in Mathematics, focusing on the bridge between theoretical foundations and computational implementation.
 
 ## 🎯 Research Vision
 
@@ -13,6 +13,17 @@ I am a Mathematics student (L2) dedicated to mastering **Applied Mathematics and
 ---
 
 ## 📂 Project Showcase
+
+### 0. 🦋 Chaos Theory: The Lorenz Attractor
+- **Code:** [lorenz_attractor.py](./Chaos_Theory/lorenz_attractor.py)
+
+Modeling a system of three coupled non-linear ordinary differential equations (ODEs). This project visualizes the "Butterfly Effect," where tiny changes in initial conditions lead to vastly different outcomes.
+
+<p align="center">
+  <img src="./Chaos_Theory/lorenz_butterfly.png" alt="Lorenz Attractor" width="600">
+</p>
+
+---
 
 ### 1. 📐 Linear Algebra: Mapping & Transformations
 - **Code:** [matrix_viz.py](./Linear-Algebra/matrix_viz.py)
