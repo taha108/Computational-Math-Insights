@@ -42,6 +42,15 @@ An interactive terminal-based tool developed from scratch to evaluate linear ind
 
 A multivariable calculus tool that automates the search for critical points and classifies them (Local Minimum, Maximum, or Saddle Point) using the Gradient and the Hessian Matrix.
 
+### 5. ♾️ Calculus: Integral Visualization
+- **Code:** [integral_visualization.py](./Calculus/integral_visualization.py)
+
+Visualizing the definite integral as the area under a curve $f(x) = x^2$ using numerical integration concepts.
+
+<p align="center">
+  <img src="./Calculus/integral_plot.png" alt="Integral Visualization" width="500">
+</p>
+
 ---
 
 ## 📂 Repository Structure
