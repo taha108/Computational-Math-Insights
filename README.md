@@ -62,6 +62,15 @@ Visualizing the definite integral as the area under a curve $f(x) = x^2$ using n
   <img src="./Calculus/integral_plot.png" alt="Integral Visualization" width="500">
 </p>
 
+### 6. 🎲 Probability: Stochastic Random Walk
+- **Code:** [random_walk_drift.py](./Probability/random_walk_drift.py)
+
+Simulation of a discrete-time random walk with a positive drift. This project illustrates how deterministic effort can overcome stochastic volatility over time.
+
+<p align="center">
+  <img src="./Probability/stochastic_process.png" alt="Stochastic Process" width="600">
+</p>
+
 ---
 
 ## 📂 Repository Structure
@@ -70,6 +79,7 @@ Visualizing the definite integral as the area under a curve $f(x) = x^2$ using n
 .
 ├── Linear-Algebra/      # Matrix mappings & Vector analysis
 ├── Calculus/            # Taylor Series & Multivariable Optimization
+├── Probability/         # Stochastic processes & Random walks
 └── README.md            # Project documentation
 ```
 
@@ -84,7 +94,7 @@ Visualizing the definite integral as the area under a curve $f(x) = x^2$ using n
 
 - [ ] **Eigenvalues & Eigenvectors:** Visualizing characteristic subspaces.
 - [x] **Numerical Optimization:** Hessian-based critical point classification.
-- [ ] **Differential Equations:** Modeling dynamic systems using ODE solvers.
+- [x] **Differential Equations:** Modeling dynamic systems using ODE solvers.
 
 ---
 
