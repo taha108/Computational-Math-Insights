@@ -71,6 +71,15 @@ Simulation of a discrete-time random walk with a positive drift. This project il
   <img src="./Probability/stochastic_process.png" alt="Stochastic Process" width="600">
 </p>
 
+### 7. 💎 Linear Algebra: Eigen-Analysis Geometry
+- **Code:** [eigen_analysis_2d.py](./Linear-Algebra/eigen_analysis_2d.py)
+
+Visualizing the geometric essence of Eigenvalues and Eigenvectors. This project shows how a matrix $A$ transforms a unit circle into an ellipse, highlighting the invariant directions (Eigenvectors) and their scaling factors (Eigenvalues).
+
+<p align="center">
+  <img src="./Linear-Algebra/eigen_geometry.png" alt="Eigen Geometry" width="500">
+</p>
+
 ---
 
 ## 📂 Repository Structure
@@ -92,7 +101,7 @@ Simulation of a discrete-time random walk with a positive drift. This project il
 
 ## 🗺️ Future Roadmap
 
-- [ ] **Eigenvalues & Eigenvectors:** Visualizing characteristic subspaces.
+- [x] **Eigenvalues & Eigenvectors:** Visualizing characteristic subspaces.
 - [x] **Numerical Optimization:** Hessian-based critical point classification.
 - [x] **Differential Equations:** Modeling dynamic systems using ODE solvers.
 
