@@ -80,6 +80,12 @@ Visualizing the geometric essence of Eigenvalues and Eigenvectors. This project 
   <img src="./Linear-Algebra/eigen_geometry.png" alt="Eigen Geometry" width="500">
 </p>
 
+### 8. 📈 Calculus: Power Series Convergence Analyzer
+- **Code:** [convergence_analyzer.py](./Calculus/convergence_analyzer.py)
+
+An automated tool to compute the **Radius of Convergence** $R$ of a power series $\sum a_n x^n$. It uses D'Alembert's Ratio Test through symbolic computation.
+
+
 ---
 
 ## 📂 Repository Structure
