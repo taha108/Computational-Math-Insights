@@ -85,6 +85,14 @@ Visualizing the geometric essence of Eigenvalues and Eigenvectors. This project 
 
 An automated tool to compute the **Radius of Convergence** $R$ of a power series $\sum a_n x^n$. It uses D'Alembert's Ratio Test through symbolic computation.
 
+### 9. 💎 Advanced Algebra & Calculus: Spectral Theory & Symbolic Integration
+- **Code:** [spectral_convergence.py](./Calculus/spectral_convergence.py)
+
+A dual-purpose scientific module demonstrating the power of symbolic computation in high-level mathematics.
+
+- **Spectral Analysis:** Automated verification of matrix symmetry and application of the **Spectral Theorem** to find orthogonal bases and eigenvalues.
+- **Generalized Calculus:** Symbolic evaluation of improper integrals (Riemann convergence at $+\infty$), including the Gaussian integral $\int_{0}^{+\infty} e^{-t^2} dt$.
+- **Tool:** Using `SymPy` for exact mathematical proofs rather than numerical approximations.
 
 ---
 
