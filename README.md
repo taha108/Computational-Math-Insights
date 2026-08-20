@@ -106,6 +106,18 @@ Visualizing the convergence of the sequence of functions $f_n(x) = x^n$ on the i
   <img src="./Calculus/convergence_plot.png" alt="Function Convergence" width="500">
 </p>
 
+### 11. 🤖 AI Foundations: Gradient Descent
+- **Code:** [gradient_descent_optimization.py](./AI-Foundations/gradient_descent_optimization.py)
+
+Implementation of the fundamental optimization algorithm used in Deep Learning. This project bridges **Calculus** (derivatives) and **Algorithmic Learning**.
+
+- **Concept:** Minimizing a loss function by iteratively moving in the direction of the steepest descent.
+- **Visualization:** Tracking the path of the "optimizer" along the cost surface.
+
+<p align="center">
+  <img src="./AI-Foundations/gradient_descent.png" alt="Gradient Descent" width="500">
+</p>
+
 ---
 
 ## 📂 Repository Structure
