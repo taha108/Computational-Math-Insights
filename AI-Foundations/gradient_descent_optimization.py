@@ -32,5 +32,5 @@ plt.plot(history, f(history), 'ro-', label="AI Learning Path")
 
 plt.title("Point 16: Gradient Descent from Scratch", color='white')
 plt.legend()
-plt.savefig('gradient_descent.png', facecolor='#121212')
+plt.savefig('./AI-Foundations/gradient_descent.png', facecolor='#121212')
 plt.show()
