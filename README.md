@@ -94,6 +94,18 @@ A dual-purpose scientific module demonstrating the power of symbolic computation
 - **Generalized Calculus:** Symbolic evaluation of improper integrals (Riemann convergence at $+\infty$), including the Gaussian integral $\int_{0}^{+\infty} e^{-t^2} dt$.
 - **Tool:** Using `SymPy` for exact mathematical proofs rather than numerical approximations.
 
+### 10. 📉 Analysis: Sequences of Functions & Convergence
+- **Code:** [function_convergence.py](./Calculus/function_convergence.py)
+
+Visualizing the convergence of the sequence of functions $f_n(x) = x^n$ on the interval $[0, 1]$. This simulation highlights the behavior of pointwise vs. uniform convergence.
+
+- **Mathematical Insight:** As $n \to \infty$, the sequence converges to a discontinuous limit function, demonstrating the loss of continuity when convergence is not uniform.
+- **Tools:** `NumPy` for discrete point generation and `Matplotlib` with the `Viridis` colormap for scientific rendering.
+
+<p align="center">
+  <img src="./Calculus/convergence_plot.png" alt="Function Convergence" width="500">
+</p>
+
 ---
 
 ## 📂 Repository Structure
