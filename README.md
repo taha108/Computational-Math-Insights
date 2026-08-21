@@ -131,6 +131,19 @@ Visualizing the transformation of a general normal distribution $\mathcal{N}(\mu
   <img src="./Probability/gaussian_cloche.png" alt="Normal Distribution Visualization" width="600">
 </p>
 
+### 13. 🌀 Number Theory: The Ulam Spiral
+- **Code:** [ulam_spiral.py](./Probability/ulam_spiral.py)
+
+A visualization of the distribution of prime numbers in a 2D grid. Starting from the center and spiraling outwards, each highlighted pixel represents a prime number.
+
+- **The Mystery:** Despite the chaotic appearance of prime numbers, this spiral reveals clear diagonal patterns (Ulam's lines) that remain unexplained in the general case.
+- **Algorithm:** Implementation of a square spiral generator with an incremental step logic for high stability.
+- **Visual:** "Prime patterns in the void" rendered with a dark scientific theme.
+
+<p align="center">
+  <img src="./Probability/ulam_spiral.png" alt="Ulam Spiral" width="500">
+</p>
+
 ---
 
 ## 📂 Repository Structure
