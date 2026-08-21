@@ -118,6 +118,19 @@ Implementation of the fundamental optimization algorithm used in Deep Learning. 
   <img src="./AI-Foundations/gradient_descent.png" alt="Gradient Descent" width="500">
 </p>
 
+### 12. 📊 Statistics: Normal Distribution & Standardization
+- **Code:** [normal_distribution_viz.py](./Probability/normal_distribution_viz.py)
+
+Visualizing the transformation of a general normal distribution $\mathcal{N}(\mu, \sigma^2)$ into a Standard Normal Distribution $\mathcal{N}(0, 1)$.
+
+- **Mathematical Concept:** Implementation of the Z-score transformation (Centering and Reducing). This process is fundamental in Machine Learning for feature scaling and data normalization.
+- **Visual Insight:** The plot demonstrates how reducing the variance $\sigma$ increases the peak of the density function to maintain a total area (integral) of 1.
+- **Libraries:** `SciPy` for statistical functions and `NumPy` for vector operations.
+
+<p align="center">
+  <img src="./Probability/gaussian_cloche.png" alt="Normal Distribution Visualization" width="600">
+</p>
+
 ---
 
 ## 📂 Repository Structure
