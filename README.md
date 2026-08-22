@@ -144,6 +144,18 @@ A visualization of the distribution of prime numbers in a 2D grid. Starting from
   <img src="./Probability/ulam_spiral.png" alt="Ulam Spiral" width="500">
 </p>
 
+### 14. 🌿 Fractals: The Barnsley Fern
+- **Code:** [barnsley_fern.py](./Chaos_Theory/barnsley_fern.py)
+
+Generating complex biological structures using Iterated Function Systems (IFS). This project combines **Probability Theory** and **Linear Algebra** to simulate the growth of a fern.
+
+- **Concept:** Four affine transformations applied stochastically to a single point.
+- **Visual:** Emergent complexity from simple matrix operations.
+
+<p align="center">
+  <img src="./Chaos_Theory/barnsley_fern.png" alt="Barnsley Fern" width="450">
+</p>
+
 ---
 
 ## 📂 Repository Structure
