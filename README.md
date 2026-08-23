@@ -156,6 +156,19 @@ Generating complex biological structures using Iterated Function Systems (IFS). 
   <img src="./Chaos_Theory/barnsley_fern.png" alt="Barnsley Fern" width="450">
 </p>
 
+### 15. 🚢 Machine Learning: Titanic Survival Prediction
+- **Code:** [titanic_analysis.py](./Machine-Learning/Titanic-Classification/titanic_analysis.py)
+
+Implementation of a Binary Classification model using **Logistic Regression**. This project bridges the gap between **Probability Theory** and **Predictive Modeling**.
+
+- **Mathematical Concept:** Using the Sigmoid activation function $\sigma(z) = \frac{1}{1 + e^{-z}}$ to map linear combinations of features to probabilities.
+- **Data Engineering:** Features encoding (Gender) and mean imputation for missing values.
+- **Performance:** Achieved an accuracy of ~80% on unseen test data.
+
+<p align="center">
+  <img src="./Machine-Learning/Titanic-Classification/survival_plot.png" alt="Titanic Survival Visualization" width="500">
+</p>
+
 ---
 
 ## 📂 Repository Structure
@@ -164,6 +177,8 @@ Generating complex biological structures using Iterated Function Systems (IFS). 
 .
 ├── Linear-Algebra/      # Matrix mappings & Vector analysis
 ├── Calculus/            # Taylor Series & Multivariable Optimization
+├── Machine-Learning/    # Predictive modeling & Binary classification
+│   └── Titanic-Classification/
 ├── Probability/         # Stochastic processes & Random walks
 └── README.md            # Project documentation
 ```
