@@ -169,18 +169,27 @@ Implementation of a Binary Classification model using **Logistic Regression**. T
   <img src="./Machine-Learning/Titanic-Classification/survival_plot.png" alt="Titanic Survival Visualization" width="500">
 </p>
 
+### 16. 🧠 AI Foundations: Perceptron from Scratch
+- **Code:** [perceptron_model.py](./AI-Foundations/Simple-Perceptron/perceptron_model.py)
+
+Implementation of a basic artificial neuron (Perceptron) without using high-level ML libraries. This project demonstrates the fundamental bridge between **Linear Algebra** (Vector Dot Products) and **Optimization** (Stochastic Gradient Descent).
+
+- **Core Logic:** Sigmoid activation function and manual weight updates via error minimization.
+- **Benchmark:** Successfully trained to solve the AND logic gate problem.
+
 ---
 
 ## 📂 Repository Structure
 
 ```text
 .
-├── Linear-Algebra/      # Matrix mappings & Vector analysis
-├── Calculus/            # Taylor Series & Multivariable Optimization
-├── Machine-Learning/    # Predictive modeling & Binary classification
-│   └── Titanic-Classification/
-├── Probability/         # Stochastic processes & Random walks
-└── README.md            # Project documentation
+├── AI-Foundations/      # AI from scratch: Perceptrons & Gradient Descent
+├── Calculus/            # Taylor Series, Hessians & Optimizations
+├── Chaos_Theory/        # Non-linear dynamics & Fractals
+├── Linear-Algebra/      # Matrix theory & Vector analysis
+├── Machine-Learning/    # Applied ML (Titanic) & Predictive modeling
+├── Probability/         # Statistics & Stochastic processes
+└── README.md            # Portfolio documentation
 ```
 
 ## 🛠️ Technical Stack
