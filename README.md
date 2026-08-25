@@ -189,6 +189,19 @@ Fundamental predictive modeling using the **Ordinary Least Squares (OLS)** metho
   <img src="./AI-Foundations/Linear-Regression/regression_plot.png" alt="Linear Regression Plot" width="500">
 </p>
 
+### 18. 🎯 Unsupervised Learning: K-Means Clustering
+- **Code:** [k_means_clustering.py](./AI-Foundations/Clustering/k_means_clustering.py)
+
+Implementation of the **K-Means algorithm** from scratch. This project demonstrates how an unsupervised system can find emergent order in a chaotic dataset using iterative geometric optimization.
+
+- **Mathematical Depth:** Iterative minimization of within-cluster sum of squares (Inertia) using Euclidean Distance.
+- **Visual Insight:** Centroid tracking and cluster assignment in $\mathbb{R}^2$.
+- **Libraries:** `NumPy` for numerical logic and `Matplotlib` for scientific rendering.
+
+<p align="center">
+  <img src="./AI-Foundations/Clustering/clustering_plot.png" alt="K-Means Clustering Plot" width="500">
+</p>
+
 ---
 
 ## 📂 Repository Structure
