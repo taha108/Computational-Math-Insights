@@ -177,6 +177,18 @@ Implementation of a basic artificial neuron (Perceptron) without using high-leve
 - **Core Logic:** Sigmoid activation function and manual weight updates via error minimization.
 - **Benchmark:** Successfully trained to solve the AND logic gate problem.
 
+### 17. 📈 AI Foundations: Linear Regression (OLS)
+- **Code:** [linear_regression_scratch.py](./AI-Foundations/Linear-Regression/linear_regression_scratch.py)
+
+Fundamental predictive modeling using the **Ordinary Least Squares (OLS)** method. This module implements the analytical solution to find the best-fit line without external ML libraries.
+
+- **Mathematical Depth:** Variance/Covariance optimization.
+- **Goal:** Mastering the foundations of predictive analytics.
+
+<p align="center">
+  <img src="./AI-Foundations/Linear-Regression/regression_plot.png" alt="Linear Regression Plot" width="500">
+</p>
+
 ---
 
 ## 📂 Repository Structure
