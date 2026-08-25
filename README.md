@@ -202,6 +202,19 @@ Implementation of the **K-Means algorithm** from scratch. This project demonstra
   <img src="./AI-Foundations/Clustering/clustering_plot.png" alt="K-Means Clustering Plot" width="500">
 </p>
 
+### 19. 📉 AI Foundations: Principal Component Analysis (PCA)
+- **Code:** [pca_from_scratch.py](./AI-Foundations/Dimensionality-Reduction/pca_from_scratch.py)
+
+Implementation of the **PCA algorithm** from scratch using Eigen-decomposition. This project demonstrates how to reduce data dimensionality while preserving maximum variance.
+
+- **Mathematical Depth:** Computation of the Covariance Matrix and extraction of Principal Components (Eigenvectors) via spectral decomposition.
+- **Geometric Insight:** Orthogonal projection of correlated 2D data onto the first principal axis (PC1), maximizing the information signal.
+- **Libraries:** `NumPy` for matrix operations and `Matplotlib` for vector field visualization.
+
+<p align="center">
+  <img src="./AI-Foundations/Dimensionality-Reduction/pca_plot.png" alt="PCA Plot" width="500">
+</p>
+
 ---
 
 ## 📂 Repository Structure
