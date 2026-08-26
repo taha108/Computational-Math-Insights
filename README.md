@@ -215,6 +215,19 @@ Implementation of the **PCA algorithm** from scratch using Eigen-decomposition. 
   <img src="./AI-Foundations/Dimensionality-Reduction/pca_plot.png" alt="PCA Plot" width="500">
 </p>
 
+### 20. 🧠 Deep Learning: Multi-Layer Perceptron (MLP) from Scratch
+- **Code:** [neural_network_mlp.py](./AI-Foundations/Neural-Networks/neural_network_mlp.py)
+
+Implementation of a non-linear neural network with a hidden layer and **Backpropagation**. This project solves the XOR problem, which is mathematically impossible for a single-layer perceptron.
+
+- **Mathematical Depth:** Application of the **Chain Rule** for partial derivatives. Implementation of matrix-based weight updates using the **Transpose** of weight matrices to propagate error.
+- **Optimization:** Training via Stochastic Gradient Descent (SGD) with Sigmoid activation.
+- **Visual Insight:** Monitoring the convergence of the **Mean Squared Error (MSE)** over thousands of epochs.
+
+<p align="center">
+  <img src="./AI-Foundations/Neural-Networks/training_loss.png" alt="Neural Network Training Loss" width="550">
+</p>
+
 ---
 
 ## 📂 Repository Structure
