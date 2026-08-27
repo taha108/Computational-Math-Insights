@@ -228,6 +228,19 @@ Implementation of a non-linear neural network with a hidden layer and **Backprop
   <img src="./AI-Foundations/Neural-Networks/training_loss.png" alt="Neural Network Training Loss" width="550">
 </p>
 
+### 21. 👁️ Computer Vision: MNIST Digit Recognition
+- **Code:** [mnist_recognition.py](./AI-Foundations/Neural-Networks/mnist_recognition.py)
+
+Scaling the custom-built Neural Network to real-world visual data. This project implements a handwritten digit classifier (0-9) using the MNIST dataset.
+
+- **Data Engineering:** Flattening $28 \times 28$ grayscale images into 784-dimensional vectors. Implementing feature scaling (normalization to $[0, 1]$) to ensure gradient stability.
+- **Complexity:** Moving from a simple logic gate (4 samples) to a high-dimensional space (5,000+ samples).
+- **Researcher's Note:** This implementation highlights the challenges of simple MLPs with "pointy" digits (e.g., misclassifying a 4 as a 7), providing a clear case for future transition toward Convolutional Neural Networks (CNNs).
+
+<p align="center">
+  <img src="./AI-Foundations/Neural-Networks/mnist_prediction.png" alt="MNIST Prediction Result" width="400">
+</p>
+
 ---
 
 ## 📂 Repository Structure
