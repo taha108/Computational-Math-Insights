@@ -241,6 +241,19 @@ Scaling the custom-built Neural Network to real-world visual data. This project 
   <img src="./AI-Foundations/Neural-Networks/mnist_prediction.png" alt="MNIST Prediction Result" width="400">
 </p>
 
+### 22. 📊 AI Auditing: Confusion Matrix & Metrics
+- **Code:** [model_evaluation.py](./AI-Foundations/Neural-Networks/model_evaluation.py)
+
+A diagnostic tool designed to evaluate the reliability of classification models. It goes beyond simple accuracy to identify specific "blind spots" in the AI's logic.
+
+- **Key Metrics:** Implementation of **Precision, Recall, and F1-Score** reports.
+- **Visualization:** High-contrast Heatmap using `Seaborn` to visualize the Confusion Matrix.
+- **Purpose:** Essential for model fine-tuning and identifying structural similarities between classes (e.g., why an IA confuses a 3 with a 4).
+
+<p align="center">
+  <img src="./AI-Foundations/Neural-Networks/confusion_matrix.png" alt="Confusion Matrix Heatmap" width="500">
+</p>
+
 ---
 
 ## 📂 Repository Structure
