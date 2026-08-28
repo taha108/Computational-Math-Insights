@@ -254,6 +254,19 @@ A diagnostic tool designed to evaluate the reliability of classification models.
   <img src="./AI-Foundations/Neural-Networks/confusion_matrix.png" alt="Confusion Matrix Heatmap" width="500">
 </p>
 
+### 23. 🏔️ Topology: Geometry of Vector Norms
+- **Code:** [vector_norms_viz.py](./Calculus/vector_norms_viz.py)
+
+Visualizing Unit Balls ($\mathcal{B}(0,1)$) for different norms in $\mathbb{R}^2$. This project bridges **Topology** and **Machine Learning Regularization**.
+
+- **Mathematical Depth:** Comparative study of $L_1$ (Manhattan), $L_2$ (Euclidean), and $L_\infty$ (Chebyshev) metrics.
+- **AI Application:** Understanding how different norm geometries influence model sparsity and optimization stability.
+- **Visualization:** Contour mapping of unit level sets using `NumPy` meshgrids.
+
+<p align="center">
+  <img src="./Calculus/norms_visualization.png" alt="Norms Visualization" width="500">
+</p>
+
 ---
 
 ## 📂 Repository Structure
