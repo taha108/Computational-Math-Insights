@@ -267,6 +267,19 @@ Visualizing Unit Balls ($\mathcal{B}(0,1)$) for different norms in $\mathbb{R}^2
   <img src="./Calculus/norms_visualization.png" alt="Norms Visualization" width="500">
 </p>
 
+### 24. 💎 Linear Algebra: Singular Value Decomposition (SVD)
+- **Code:** [svd_compression.py](./Linear-Algebra/svd_compression.py)
+
+Implementation of SVD-based matrix factorization for information compression and noise reduction. This project demonstrates how to extract the "DNA" of a dataset by identifying its most significant singular values.
+
+- **Mathematical Concept:** Decomposing a matrix $A$ into $U \Sigma V^T$. We use **Low-Rank Approximation** (Rank-$k$) to reconstruct the data using only the $k$ largest singular values.
+- **Application:** Image compression and denoising. By filtering out small singular values, we eliminate stochastic noise while preserving the essential structural signal.
+- **Library:** `NumPy` (Linear Algebra sub-module).
+
+<p align="center">
+  <img src="./Linear-Algebra/svd_compression_plot.png" alt="SVD Compression" width="700">
+</p>
+
 ---
 
 ## 📂 Repository Structure
