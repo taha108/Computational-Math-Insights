@@ -257,9 +257,9 @@ A diagnostic tool designed to evaluate the reliability of classification models.
 ### 23. 🏔️ Topology: Geometry of Vector Norms
 - **Code:** [vector_norms_viz.py](./Calculus/vector_norms_viz.py)
 
-Visualizing Unit Balls ($\mathcal{B}(0,1)$) for different norms in $\mathbb{R}^2$. This project bridges **Topology** and **Machine Learning Regularization**.
+Visualizing Unit Balls $\mathcal{B}(0, 1)$ for different norms in $\mathbb{R}^2$. This project bridges **Topology** and **Machine Learning Regularization**.
 
-- **Mathematical Depth:** Comparative study of $L_1$ (Manhattan), $L_2$ (Euclidean), and $L_\infty$ (Chebyshev) metrics.
+- **Mathematical Depth:** Comparative study of $L_1$ (Manhattan), $L_2$ (Euclidean), and $L_{\infty}$ (Chebyshev) metrics.
 - **AI Application:** Understanding how different norm geometries influence model sparsity and optimization stability.
 - **Visualization:** Contour mapping of unit level sets using `NumPy` meshgrids.
 
@@ -277,10 +277,10 @@ Implementation of SVD-based matrix factorization for information compression and
 - **Library:** `NumPy` (Linear Algebra sub-module).
 
 <p align="center">
-  <img src="./Linear-Algebra/svd_compression_plot.png" alt="SVD Compression" width="700">
+  <img src="./Linear-Algebra/svd_compression_plot.png" alt="SVD Compression" width="600">
 </p>
 
-### 25. 🪞 AI Foundations: Simple Autoencoder & Latent Spaces
+### 25. AI Foundations: Simple Autoencoder & Latent Spaces
 - **Code:** [simple_autoencoder.py](./AI-Foundations/Neural-Networks/simple_autoencoder.py)
 
 Implementation of an unsupervised neural network designed for dimensionality reduction and data reconstruction. This project acts as the neural equivalent of a non-linear PCA.
