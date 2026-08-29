@@ -280,6 +280,19 @@ Implementation of SVD-based matrix factorization for information compression and
   <img src="./Linear-Algebra/svd_compression_plot.png" alt="SVD Compression" width="700">
 </p>
 
+### 25. 🪞 AI Foundations: Simple Autoencoder & Latent Spaces
+- **Code:** [simple_autoencoder.py](./AI-Foundations/Neural-Networks/simple_autoencoder.py)
+
+Implementation of an unsupervised neural network designed for dimensionality reduction and data reconstruction. This project acts as the neural equivalent of a non-linear PCA.
+
+- **Architecture:** A "Bottleneck" design forcing 8-dimensional input data through a 3-neuron latent space (compression) before reconstructing it back to 8D (decompression).
+- **Mathematical Depth:** Application of backpropagation to minimize **Reconstruction Loss** rather than classification error.
+- **Visual Insight:** The comparison between the identity matrix and its reconstruction highlights the information trade-off inherent in low-dimensional latent representations.
+
+<p align="center">
+  <img src="./AI-Foundations/Neural-Networks/autoencoder_reconstruction.png" alt="Autoencoder Reconstruction" width="700">
+</p>
+
 ---
 
 ## 📂 Repository Structure
