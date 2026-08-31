@@ -293,6 +293,19 @@ Implementation of an unsupervised neural network designed for dimensionality red
   <img src="./AI-Foundations/Neural-Networks/autoencoder_reconstruction.png" alt="Autoencoder Reconstruction" width="700">
 </p>
 
+### 26. 👁️ Computer Vision: Edge Detection Engine
+- **Code:** [edge_detector.py](./AI-Foundations/Computer-Vision/edge_detector.py)
+
+Implementation of a spatial convolution engine to extract structural features from images. This module applies **Multivariable Calculus** to digital signal processing.
+
+- **Algorithm:** Sobel Operator using $3 \times 3$ discrete derivative kernels.
+- **Computation:** 2D Convolution and Gradient Magnitude mapping.
+- **Visual:** High-contrast edge extraction using the perceptually uniform `magma` colormap.
+
+<p align="center">
+  <img src="./AI-Foundations/Computer-Vision/edge_detection_plot.png" alt="Edge Detection Result" width="650">
+</p>
+
 ---
 
 ## 📂 Repository Structure
