@@ -306,6 +306,19 @@ Implementation of a spatial convolution engine to extract structural features fr
   <img src="./AI-Foundations/Computer-Vision/edge_detection_plot.png" alt="Edge Detection Result" width="650">
 </p>
 
+### 27. 🐺 Mathematical Biology: Lotka-Volterra Dynamics
+- **Code:** [predator_prey_model.py](./Chaos_Theory/Population-Dynamics/predator_prey_model.py)
+
+Simulating the interaction between two species using coupled non-linear Ordinary Differential Equations (ODEs). This project explores the stability of biological ecosystems through numerical integration.
+
+- **Mathematical Depth:** Implementation of the Lotka-Volterra equations. Analysis of periodic oscillations and phase-space stability.
+- **Computation:** Solving ODEs using the `scipy.integrate` (LSODA algorithm).
+- **Visualization:** Time-series analysis vs. Phase Portrait (Limit Cycles).
+
+<p align="center">
+  <img src="./Chaos_Theory/Population-Dynamics/lotka_volterra_plot.png" alt="Predator-Prey Simulation" width="800">
+</p>
+
 ---
 
 ## 📂 Repository Structure
