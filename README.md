@@ -319,6 +319,15 @@ Simulating the interaction between two species using coupled non-linear Ordinary
   <img src="./Chaos_Theory/Population-Dynamics/lotka_volterra_plot.png" alt="Predator-Prey Simulation" width="800">
 </p>
 
+### 28. 🧬 Evolutionary Computing: Stochastic Optimization
+- **Code:** [genetic_optimization.py](./AI-Foundations/Evolutionary-Computing/genetic_optimization.py)
+
+Simulation of an evolutionary algorithm applied to heuristic string optimization. This project explores how iterative selection and random mutation can lead a chaotic initial state toward a specific target.
+
+- **Mathematical Foundations:** Fitness landscape analysis and stochastic search algorithms.
+- **Key Concepts:** Mutation rate, Selection pressure, and Convergence stability.
+- **Insight:** Demonstrating the transition from high-entropy (random noise) to low-entropy (structured information) through biased iteration.
+
 ---
 
 ## 📂 Repository Structure
