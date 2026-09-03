@@ -328,6 +328,18 @@ Simulation of an evolutionary algorithm applied to heuristic string optimization
 - **Key Concepts:** Mutation rate, Selection pressure, and Convergence stability.
 - **Insight:** Demonstrating the transition from high-entropy (random noise) to low-entropy (structured information) through biased iteration.
 
+### 29. 🧬 AI Foundations: Genetic Convergence Analysis
+- **Code:** [genetic_visualizer.py](./AI-Foundations/Evolutionary-Computing/genetic_visualizer.py)
+
+An advanced study of evolutionary algorithms, focusing on the mathematical convergence toward a target state.
+
+- **Mechanism:** Tracking the fitness evolution through thousands of generations.
+- **Visual Insight:** The resulting plot illustrates the "Hill Climbing" nature of stochastic optimization, showing the transition from a high-entropy random state to a low-entropy deterministic solution.
+
+<p align="center">
+  <img src="./AI-Foundations/Evolutionary-Computing/convergence_analysis.png" alt="Evolution Convergence" width="600">
+</p>
+
 ---
 
 ## 📂 Repository Structure
