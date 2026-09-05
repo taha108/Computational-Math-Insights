@@ -353,6 +353,19 @@ Implementation of the original Google PageRank algorithm using the **Power Itera
   <img src="./Linear-Algebra/pagerank_distribution.png" alt="PageRank Results" width="500">
 </p>
 
+### 31. 🎯 Numerical Optimization: Newton-Raphson Method
+- **Code:** [newton_raphson_solver.py](./Calculus/newton_raphson_solver.py)
+
+Implementation of the Newton-Raphson algorithm for finding numerical roots of non-linear equations.
+
+- **Mathematical Depth:** Leveraging the first-order Taylor expansion to achieve quadratic convergence toward the solution.
+- **Project Goal:** Calculating the square root of 2 ($\sqrt{2}$) by solving $x^2 - 2 = 0$.
+- **Visualization:** Tracking the convergence speed across iterations.
+
+<p align="center">
+  <img src="./Calculus/newton_convergence.png" alt="Newton Convergence Plot" width="500">
+</p>
+
 ---
 
 ## 📂 Repository Structure
