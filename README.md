@@ -340,6 +340,19 @@ An advanced study of evolutionary algorithms, focusing on the mathematical conve
   <img src="./AI-Foundations/Evolutionary-Computing/convergence_analysis.png" alt="Evolution Convergence" width="600">
 </p>
 
+### 30. 🕸️ Graph Theory: PageRank Algorithm
+- **Code:** [pagerank_algorithm.py](./Linear-Algebra/pagerank_algorithm.py)
+
+Implementation of the original Google PageRank algorithm using the **Power Iteration** method. This project bridges **Linear Algebra** (Spectral Theory) and **Markov Chains**.
+
+- **Mechanism:** Modeling a web structure as a stochastic matrix and finding its stationary distribution (dominant eigenvector).
+- **Optimization:** Using a damping factor to handle "sink nodes" and ensure mathematical convergence.
+- **Insight:** Ranking node importance based on the recursive influence of their inbound links.
+
+<p align="center">
+  <img src="./Linear-Algebra/pagerank_distribution.png" alt="PageRank Results" width="500">
+</p>
+
 ---
 
 ## 📂 Repository Structure
