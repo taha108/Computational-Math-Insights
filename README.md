@@ -366,6 +366,19 @@ Implementation of the Newton-Raphson algorithm for finding numerical roots of no
   <img src="./Calculus/newton_convergence.png" alt="Newton Convergence Plot" width="500">
 </p>
 
+### 32. 📐 Linear Algebra: Gram-Schmidt Orthogonalization & QR Decomposition
+- **Code:** [gram_schmidt_qr.py](./Linear-Algebra/gram_schmidt_qr.py)
+
+Implementation of the **Gram-Schmidt process** from scratch to transform an arbitrary basis into an orthonormal basis, constructing the fundamental **QR matrix decomposition** ($A = QR$).
+
+- **Mathematical Foundations:** Projection theorem in Euclidean spaces, inner product $\langle u, v \rangle$, and vector normalization.
+- **Verification:** Numerical validation of orthogonality ($Q^T Q = I$) and reconstruction accuracy ($\|V - QR\| \approx 0$).
+- **Visual:** Geometric comparison showing the transformation from skewed input vectors to orthogonal unit vectors in $\mathbb{R}^2$.
+
+<p align="center">
+  <img src="./Linear-Algebra/gram_schmidt_plot.png" alt="Gram Schmidt Orthogonalization" width="500">
+</p>
+
 ---
 
 ## 📂 Repository Structure
