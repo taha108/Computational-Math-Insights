@@ -379,6 +379,19 @@ Implementation of the **Gram-Schmidt process** from scratch to transform an arbi
   <img src="./Linear-Algebra/gram_schmidt_plot.png" alt="Gram Schmidt Orthogonalization" width="500">
 </p>
 
+### 33. 🎶 Harmonic Analysis: Fourier Series & Signal Synthesis
+- **Code:** [fourier_synthesis.py](./Calculus/fourier_synthesis.py)
+
+Implementation of **Fourier Series Decomposition** to reconstruct discontinuous periodic signals (Square Wave) from pure sinusoidal harmonics.
+
+- **Mathematical Depth:** Computation of Fourier coefficients ($b_n = \frac{4}{n\pi}$ for odd $n$) and exploration of the **Gibbs Phenomenon** at jump discontinuities.
+- **Signal Processing:** Demonstrates spectral superposition and convergence in $L^2$ function space.
+- **Visualization:** Multi-harmonic progressive reconstruction ($N=1, 3, 7, 25$) on $[ -2\pi, 2\pi ]$.
+
+<p align="center">
+  <img src="./Calculus/fourier_synthesis.png" alt="Fourier Synthesis" width="600">
+</p>
+
 ---
 
 ## 📂 Repository Structure
